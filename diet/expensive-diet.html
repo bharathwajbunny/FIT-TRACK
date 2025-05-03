@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expensive Diet - FitTrack</title>
+    <link rel="stylesheet" href="beginner.css">
+    <style>
+        /* CSS for the "Buy Salmon on Amazon" button */
+        .buy-btn {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .buy-btn:hover {
+            background-color: #e68a00;
+        }
+
+        .meal {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .meal img {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .meal-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .meal-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Expensive Diet</h1>
+        <nav>
+            <ul>
+                <li><a href="/j/public/login.php">Home</a></li>
+                <li><a href="/j/public/dashboard.php">Dashboard</a></li>
+                <li><a href="/j/public/workouts.php">Workouts</a></li>
+                <li><a href="/j/public/diet.php">Diet</a></li>
+                <li><a href="/j/public/expenses/expenses.php">Expenses</a></li>
+                <li><a href="/j/public/logout.php">Logout</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Expensive Diet</h2>
+            <p>This diet features premium ingredients like salmon, avocado, and organic vegetables, designed for those willing to invest in high-quality nutrition.</p>
+        </section>
+
+        <!-- Breakfast Section -->
+        <section>
+            <h3>Breakfast</h3>
+            <div class="meal">
+                <img src="/j/public/expensive/1.jpg" alt="Eggs Breakfast">
+                <div class="meal-info">
+                    <h4>Free-range Eggs (2 whole eggs)</h4>
+                    <p>Weight: ~100g</p>
+                    <p>Calories: 140 kcal</p>
+                    <p>Protein: 12g</p>
+                    <p>Carbs: 1g</p>
+                    <p>Fat: 10g</p>
+                    <p>Price: ₹60–₹80 (for 2 eggs)</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), local organic farmers' markets.</p>
+                    
+                    </a>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="/j/public/expensive/2.jpg" alt="Oats Breakfast">
+                <div class="meal-info">
+                    <h4>Organic Oats (1/2 cup dry)</h4>
+                    <p>Weight: ~40g</p>
+                    <p>Calories: 150 kcal</p>
+                    <p>Protein: 5g</p>
+                    <p>Carbs: 27g</p>
+                    <p>Fat: 3g</p>
+                    <p>Price: ₹70–₹120 (for 1/2 cup)</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), Amazon.</p>
+                    <a href="https://www.amazon.in/s?k=organic+oats&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Oats on Amazon</button>
+                    </a>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="/j/public/expensive/3.jpg" alt="Greek Yogurt">
+                <div class="meal-info">
+                    <h4>Greek Yogurt (Plain, Organic, Full-fat)</h4>
+                    <p>Weight: ~200g</p>
+                    <p>Calories: 220 kcal</p>
+                    <p>Protein: 10g</p>
+                    <p>Carbs: 8g</p>
+                    <p>Fat: 12g</p>
+                    <p>Price: ₹90–₹150 per 200g</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), Whole Foods-style stores.</p>
+                    <a href="https://www.amazon.in/s?k=greek+yogurt&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Yogurt on Amazon</button>
+                    </a>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="/j/public/expensive/4.jpg" alt="Blueberries">
+                <div class="meal-info">
+                    <h4>Organic Blueberries (1/2 cup)</h4>
+                    <p>Weight: ~75g</p>
+                    <p>Calories: 42 kcal</p>
+                    <p>Protein: 0.5g</p>
+                    <p>Carbs: 11g</p>
+                    <p>Fat: 0g</p>
+                    <p>Price: ₹200–₹350 per 200g</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), online (Amazon).</p>
+                    <a href="https://www.amazon.in/s?k=organic+blueberries&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Blueberries on Amazon</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Snack 1 Section -->
+        <section>
+            <h3>Snack 1</h3>
+            <div class="meal">
+                <img src="/j/public/expensive/5.jpg" alt="Almonds Snack">
+                <div class="meal-info">
+                    <h4>Almonds (Raw, Organic, 1/4 cup)</h4>
+                    <p>Weight: ~30g</p>
+                    <p>Calories: 170 kcal</p>
+                    <p>Protein: 6g</p>
+                    <p>Carbs: 6g</p>
+                    <p>Fat: 14g</p>
+                    <p>Price: ₹150–₹250 per 100g</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), online (Amazon).</p>
+                    <a href="https://www.amazon.in/s?k=raw+almonds&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Almonds on Amazon</button>
+                    </a>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="/j/public/expensive/6.jpg" alt="Chia Seeds">
+                <div class="meal-info">
+                    <h4>Chia Seeds (1 tbsp)</h4>
+                    <p>Weight: ~15g</p>
+                    <p>Calories: 70 kcal</p>
+                    <p>Protein: 2g</p>
+                    <p>Carbs: 5g</p>
+                    <p>Fat: 5g</p>
+                    <p>Price: ₹150–₹200 per 100g</p>
+                    <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), online (Amazon).</p>
+                    <a href="https://www.amazon.in/s?k=chia+seeds&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Chia Seeds on Amazon</button>
+                    </a>
+                </div>
+            </div>
+            <div class="meal">
+                <img src="/j/public/expensive/7.jpg" alt="Coconut Water">
+                <div class="meal-info">
+                    <h4>Coconut Water (Fresh or Packaged, 1 cup)</h4>
+                    <p>Weight: ~240ml</p>
+                    <p>Calories: 45 kcal</p>
+                    <p>Protein: 0g</p>
+                    <p>Carbs: 9g</p>
+                    <p>Fat: 0g</p>
+                    <p>Price: ₹30–₹50 per 500ml</p>
+                    <p><strong>Best place to purchase:</strong> Supermarkets (Reliance Fresh, Big Bazaar), online stores (BigBasket, Amazon).</p>
+                    <a href="https://www.amazon.in/s?k=coconut+water&ref=nb_sb_noss" target="_blank">
+                        <button class="buy-btn">Buy Coconut Water on Amazon</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+       <!-- Lunch Section -->
+<section>
+    <h3>Lunch</h3>
+    <div class="meal">
+        <img src="/j/public/expensive/8.jpg" alt="Grilled Salmon Lunch">
+        <div class="meal-info">
+            <h4>Grilled Salmon (Wild-caught, 100g)</h4>
+            <p>Weight: ~100g</p>
+            <p>Calories: 200 kcal</p>
+            <p>Protein: 22g</p>
+            <p>Carbs: 0g</p>
+            <p>Fat: 13g</p>
+            <p>Price: ₹500–₹700 per 100g</p>
+            <p><strong>Best place to purchase:</strong> Online seafood retailers, premium supermarkets (Big Bazaar, Nature’s Basket)</p>
+           
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/9.jpg" alt="Organic Quinoa">
+        <div class="meal-info">
+            <h4>Organic Quinoa (1/2 cup cooked)</h4>
+            <p>Weight: ~90g</p>
+            <p>Calories: 110 kcal</p>
+            <p>Protein: 4g</p>
+            <p>Carbs: 19g</p>
+            <p>Fat: 2g</p>
+            <p>Price: ₹200–₹300 per 500g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), Amazon</p>
+            <a href="https://www.amazon.in/s?k=organic+quinoa&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Quinoa on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/10.jpg" alt="Mixed Salad Greens">
+        <div class="meal-info">
+            <h4>Mixed Salad Greens (Arugula, Spinach, Kale, 1 cup)</h4>
+            <p>Weight: ~50g</p>
+            <p>Calories: 10 kcal</p>
+            <p>Protein: 1g</p>
+            <p>Carbs: 2g</p>
+            <p>Fat: 0g</p>
+            <p>Price: ₹50–₹100 per 100g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket), supermarkets (Reliance Fresh)</p>
+           
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/11.jpg" alt="Avocado">
+        <div class="meal-info">
+            <h4>Avocado (1 medium, organic)</h4>
+            <p>Weight: ~150g</p>
+            <p>Calories: 240 kcal</p>
+            <p>Protein: 3g</p>
+            <p>Carbs: 12g</p>
+            <p>Fat: 22g</p>
+            <p>Price: ₹150–₹250 per avocado</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), premium supermarkets</p>
+            
+            
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/12.jpg" alt="Olive Oil">
+        <div class="meal-info">
+            <h4>Olive Oil (Extra virgin, 1 tbsp)</h4>
+            <p>Weight: ~15g</p>
+            <p>Calories: 120 kcal</p>
+            <p>Protein: 0g</p>
+            <p>Carbs: 0g</p>
+            <p>Fat: 14g</p>
+            <p>Price: ₹300–₹600 per 500ml</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), Amazon</p>
+            <a href="https://www.amazon.in/s?k=extra+virgin+olive+oil&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Olive Oil on Amazon</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Snack 2 Section -->
+<section>
+    <h3>Snack 2</h3>
+    <div class="meal">
+        <img src="/j/public/expensive/13.jpg" alt="Protein Powder Snack">
+        <div class="meal-info">
+            <h4>Protein Powder (1 scoop)</h4>
+            <p>Weight: ~30g</p>
+            <p>Calories: 120–150 kcal</p>
+            <p>Protein: 20g</p>
+            <p>Carbs: 3g</p>
+            <p>Fat: 2g</p>
+            <p>Price: ₹1,000–₹2,500 (for a 1kg pack)</p>
+            <p><strong>Best place to purchase:</strong> Health supplement stores (HealthKart, Amazon), online retailers</p>
+            <a href="https://www.amazon.in/s?k=protein+powder&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Protein Powder on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/14.jpg" alt="Almond Butter">
+        <div class="meal-info">
+            <h4>Almond Butter (Organic, 1 tbsp)</h4>
+            <p>Weight: ~16g</p>
+            <p>Calories: 95 kcal</p>
+            <p>Protein: 3g</p>
+            <p>Carbs: 3g</p>
+            <p>Fat: 8g</p>
+            <p>Price: ₹400–₹600 per 250g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket), Amazon, online retailers</p>
+            <a href="https://www.amazon.in/s?k=almond+butter&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Almond Butter on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/15.jpg" alt="Coconut Yogurt">
+        <div class="meal-info">
+            <h4>Coconut Yogurt (Organic, 1 cup)</h4>
+            <p>Weight: ~200g</p>
+            <p>Calories: 180 kcal</p>
+            <p>Protein: 1g</p>
+            <p>Carbs: 18g</p>
+            <p>Fat: 10g</p>
+            <p>Price: ₹150–₹250 per 200g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket)</p>
+            <a href="https://www.amazon.in/s?k=coconut+yogurt&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Coconut Yogurt on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/16.jpg" alt="Chia Seeds">
+        <div class="meal-info">
+            <h4>Chia Seeds (1 tbsp)</h4>
+            <p>Weight: ~15g</p>
+            <p>Calories: 70 kcal</p>
+            <p>Protein: 2g</p>
+            <p>Carbs: 5g</p>
+            <p>Fat: 5g</p>
+            <p>Price: ₹150–₹200 per 100g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), online (Amazon)</p>
+            <a href="https://www.amazon.in/s?k=chia+seeds&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Chia Seeds on Amazon</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Dinner Section -->
+<section>
+    <h3>Dinner</h3>
+    <div class="meal">
+        <img src="/j/public/expensive/17.jpg" alt="Grass-fed Beef Dinner">
+        <div class="meal-info">
+            <h4>4 oz Grilled Chicken Breast</h4>
+            <p>Weight: 113g</p>
+            <p>Calories: 180 kcal</p>
+            <p>Protein: 35g</p>
+            <p>Carbs: 0g</p>
+            <p>Fat: 4g</p>
+            <p>Price: ₹200 - ₹505</p>
+            <p><strong>Best place to purchase:</strong> Local butcher shops or supermarkets.</p>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/18.jpg" alt="Asparagus">
+        <div class="meal-info">
+            <h4>Asparagus (1 cup, organic)</h4>
+            <p>Weight: ~130g</p>
+            <p>Calories: 27 kcal</p>
+            <p>Protein: 3g</p>
+            <p>Carbs: 5g</p>
+            <p>Fat: 0g</p>
+            <p>Price: ₹200–₹350 per 250g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket)</p>
+            <a href="https://www.amazon.in/s?k=asparagus&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Asparagus on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/19.jpg" alt="Quinoa">
+        <div class="meal-info">
+            <h4>Quinoa (1/2 cup cooked)</h4>
+            <p>Weight: ~90g</p>
+            <p>Calories: 110 kcal</p>
+            <p>Protein: 4g</p>
+            <p>Carbs: 19g</p>
+            <p>Fat: 2g</p>
+            <p>Price: ₹200–₹300 per 500g</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket), Amazon</p>
+            <a href="https://www.amazon.in/s?k=quinoa&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Quinoa on Amazon</button>
+            </a>
+        </div>
+    </div>
+    <div class="meal">
+        <img src="/j/public/expensive/20.jpg" alt="Olive Oil">
+        <div class="meal-info">
+            <h4>Extra Virgin Olive Oil (1 tbsp)</h4>
+            <p>Weight: ~15g</p>
+            <p>Calories: 120 kcal</p>
+            <p>Protein: 0g</p>
+            <p>Carbs: 0g</p>
+            <p>Fat: 14g</p>
+            <p>Price: ₹300–₹600 per 500ml</p>
+            <p><strong>Best place to purchase:</strong> Organic stores (Nature’s Basket, Big Basket)</p>
+            <a href="https://www.amazon.in/s?k=extra+virgin+olive+oil&ref=nb_sb_noss" target="_blank">
+                <button class="buy-btn">Buy Olive Oil on Amazon</button>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="total-cost">
+    <h3>Approximate Total Cost Per Day</h3>
+    <ul>
+        <li>Breakfast (Grilled Salmon, Organic Veggies, Quinoa): ₹500 - ₹700</li>
+        <li>Snack 1 (Protein Powder, Almond Butter, Coconut Yogurt, Chia Seeds): ₹795 - ₹1,400</li>
+        <li>Lunch (Grilled Salmon, Organic Quinoa, Salad Greens, Avocado, Olive Oil): ₹1,000 - ₹1,400</li>
+        <li>Snack 2 (Almond Butter, Coconut Yogurt, Chia Seeds, Protein Powder): ₹595 - ₹950</li>
+        <li>Dinner (Grass-fed Beef, Asparagus, Quinoa, Extra Virgin Olive Oil): ₹1,300 - ₹1,600</li>
+    </ul>
+    <h4>Total Estimated Daily Cost: ₹4,190 - ₹5,800</h4>
+    <h4>Total Estimated Monthly Cost: ₹1,25,700 - ₹1,74,000</h4>
+</section>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 FitTrack. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* General Styles for Beginner Diet Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles for Beginner Diet Page */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Beginner Diet Meal Styles */
+.meal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-start; /* Ensures images and text are aligned side by side */
+}
+
+.meal img {
+    width: 200px;  /* Set the image size to 200px */
+    height: 200px; /* Set the image size to 200px */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.meal-info {
+    max-width: 350px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    margin-left: 20px; /* Space between the image and text */
+}
+
+.meal-info h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.meal-info p {
+    margin: 5px 0;
+}
+
+/* Diet Meal Plan Title Styles */
+section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Meal Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    justify-content: flex-start; /* Align items in a row */
+    gap: 20px;           /* Space between images */
+    margin-top: 30px;
+    overflow: hidden;    /* Hide overflow if images exceed width */
+    margin-bottom: 30px;
+}
+
+.image-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-item img {
+    width: 200px;  /* Set all images to 200px */
+    height: 200px; /* Set all images to 200px */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.image-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Container to align images and text */
+.container {
+    display: flex;
+    align-items: center; /* Align vertically centered */
+    gap: 20px;           /* Space between images and text */
+    margin-bottom: 20px; /* Space between multiple meals */
+}
