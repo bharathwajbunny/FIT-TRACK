@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for the new workout navigation */
+.workout-nav {
+    background-color: black;  /* Black background */
+    padding: 0;  /* Remove padding around the nav bar */
+    width: auto;  /* Width adjusts to the content */
+    display: inline-block;  /* Only take up as much space as needed */
+}
+
+.workout-nav ul {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    display: flex;  /* Align the items in a row */
+}
+
+.workout-nav li {
+    margin-right: 30px;  /* Space between each link */
+}
+
+.workout-nav a {
+    color: red;  /* Red text */
+    text-decoration: none;
+    font-size: 25px;  /* Larger font size */
+    font-weight: bold;  /* Bold text for emphasis */
+    padding: 10px 20px;  /* Adds padding inside the links */
+}
+
+.workout-nav a:hover {
+    text-decoration: underline;
+}
+/* Remove bullets from lists */
+ul {
+    list-style-type: none;  /* Removes bullets */
+    padding-left: 0;        /* Removes any default padding */
+}
+
+li {
+    margin-bottom: 15px;    /* Space between list items */
+}
+.timer {
+    font-size: 2em;
+    margin: 20px 0;
+}
+.buttons {
+    margin: 20px 0;
+}
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+}
