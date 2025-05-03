@@ -1,0 +1,108 @@
+/* General Styles for Diet Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles for Diet Page */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Diet Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 30px;
+    justify-content: center; /* Center align the images */
+}
+
+.image-item {
+    width: 45%; /* Each image takes up 45% of the container width (2 images per row) */
+    text-align: center;
+    margin-bottom: 20px;
+    height: 300px; /* Set the height to 300px */
+}
+
+.image-item img {
+    width: 100%;       /* Ensures the image is 100% of the container width */
+    height: 100%;      /* Ensures the image is 100% of the container height */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.image-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Styling for Meal Plan Title */
+section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
