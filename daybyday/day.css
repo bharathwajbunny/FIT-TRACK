@@ -1,0 +1,241 @@
+/* Basic styling for body and text alignment */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background: #28a745;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Section styling for workouts */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Workout navigation styling */
+.workout-nav {
+    background-color: black;
+    padding: 0;
+    width: auto;
+    display: inline-block;
+}
+
+.workout-nav ul {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    display: flex;
+}
+
+.workout-nav li {
+    margin-right: 30px;
+}
+
+.workout-nav a {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.workout-nav a:hover {
+    text-decoration: underline;
+}
+
+/* List item styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+/* Style for exercise containers */
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to start */
+    margin-bottom: 20px;
+    text-align: center;
+    min-height: 350px; /* Ensure enough height for the container */
+    position: relative; /* For positioning the timer at the bottom */
+}
+
+/* Styling for exercise images and videos with border */
+.exercise-media {
+    flex: 1;
+    max-width: 500px;  /* Set consistent max-width for both images and videos */
+    text-align: center;
+    margin-right: 20px;
+    height: 300px;  /* Set a fixed height for both images and videos */
+    overflow: hidden;  /* Ensures content fits within the fixed height */
+}
+
+.exercise-media img, .exercise-media video {
+    width: 100%;  /* Ensure both images and videos take up full width of their container */
+    height: 100%;  /* Set the height to 100% to ensure equal height for both media */
+    object-fit: cover;  /* Ensures the content (image/video) covers the space without distortion */
+    border: 2px solid #333;  /* Border around media */
+    border-radius: 8px;  /* Optional: Adds rounded corners to the border */
+    padding: 5px;  /* Optional: Adds some space between the media and the border */
+}
+
+/* Styling for exercise details (name beside media) */
+.exercise-details {
+    flex: 2;
+    text-align: center;  /* Center text in the details section */
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Vertically center text */
+}
+
+.exercise-details strong {
+    font-size: 25px;
+    color: #333;
+}
+
+.exercise-details ul {
+    margin-top: 10px;
+    padding-left: 0;
+    font-size: 20px; /* Adjust this value as needed */
+    text-align: center; /* Center the list text */
+}
+
+/* Centering and adjusting text size */
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Style for exercise containers */
+.exercise-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+/* Style for images and videos on the left */
+.exercise-media {
+    flex: 1 1 45%; /* Ensures media (image/video) are 45% width, two per row */
+    margin-right: 20px;
+}
+
+/* Style for exercise details on the right */
+.exercise-details {
+    flex: 1 1 45%; /* Ensures details take the remaining space */
+}
+
+/* Add a small space between images */
+.exercise-container img{
+    width: 40%; /* Make the image and video responsive */
+    border-radius: 8px;
+    margin-left: 275px;
+} .exercise-container video {
+    width: 100%; /* Make the image and video responsive */
+    border-radius: 8px;
+}
+
+/* Timer styling */
+.timer-container {
+    display: flex;
+    justify-content: flex-start; /* Align timer to the left */
+    align-items: center; /* Vertically align the timer and button */
+    margin-top: 10px;
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px; /* Add space between timer and button */
+}
+
+.buttons {
+    display: flex;
+    align-items: center; /* Center the buttons vertically */
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons button.stop {
+    background-color: red;
+}
+
+/* Style for the container holding each exercise */
+ .exercise-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.exercise-image img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+.exercise-details {
+    margin-top: 10px;
+}
